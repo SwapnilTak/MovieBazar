@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-function App() {
+import HomePage from "./components/homePage";
+import LoginPage from "./components/loginPage";
+import MoviePage from "./components/moviePage";
+import React from "react";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" exact element={<HomePage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/movie/:movieId" element={<MoviePage />} />
+      </Routes>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
+
+// npm install @mui/material @emotion/react @emotion/styled
+
+// https://rapidapi.com/rapihub-rapihub-default/api/imdb-top-100-movies

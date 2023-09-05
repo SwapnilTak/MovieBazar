@@ -1,0 +1,91 @@
+/* HomePage Styles */
+.home-page {
+    padding: 20px;
+  }
+  
+  /* Rest of your styles */
+  
+  /* Banner Styles */
+  .banner {
+    height: 300px; /* Adjust the height as needed */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .banner-content {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    color: white;
+  }
+  
+  /* not in use below */
+  .featured {
+    text-align: center;
+  }
+  
+  .featured h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .content-card {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .content-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .content-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .content-card h3 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* Movie Grid Styles */
+  .movie-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .movie-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+  
+  .rating {
+    display: flex;
+    align-items: center;
+    color: #f1c40f;
+    font-size: 16px;
+    margin-top: 5px;
+  }
