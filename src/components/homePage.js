@@ -86,7 +86,7 @@ const HomePage = () => {
           <Grid container spacing={2}>
             {movieData &&
               movieData.map((movie, index) => {
-                // if (movie.genre[0] == "Drama") {
+                // if (movie.genre[0] == "Drama") {  
                 return (
                   <>
                     <Grid item xs={12} sm={6} md={4} key={index}>
