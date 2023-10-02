@@ -78,11 +78,11 @@ import {
                     />
                     <Typography variant="subtitle1">
                       {/* Director: {selectedMovie.director.join(", ")} */}
-                      Year :
+                      Year :{selectedMovie.year}
                     </Typography>
                     <Typography variant="subtitle2">
                       {/* Genre: {selectedMovie.genre.join(", ")}/ */}
-                      Genre:
+                      Genre :{selectedMovie.genre.join(", ")}
                     </Typography>
                     <Typography variant="body1">
                       {selectedMovie.description}

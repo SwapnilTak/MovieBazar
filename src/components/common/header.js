@@ -16,10 +16,10 @@ const Header = () => {
         >
           <img
             src="movie-bazaar.png"
-            alt="BollywoodBazaar Logo"
+            alt="MovieBazaar Logo"
             height={"70px"}
             width={"70px"}
-            style={{ borderRadius: "99px" }}
+            style={{ borderRadius: "0px" }}
           />
         </Typography>
         <Link to={"/"}>

@@ -19,10 +19,10 @@ const Footer = () => {
           <Typography variant="h6" style={{ flexGrow: 1 }}>
             <img
               src="movie-bazaar.png"
-              alt="BollywoodBazaar Logo"
+              alt="MovieBazaar Logo"
               height={"70px"}
               width={"70px"}
-              style={{ borderRadius: "19px" }}
+              style={{ borderRadius: "0px" }}
             />
           </Typography>
           <div className="social-icons">
